@@ -1,4 +1,4 @@
-const numeroRandom = require('../ejercicios/38');
+const numeroRandom = require('../ejercicios/39');
 
 test('Debe devolver un número entre 0 y 1', function () {
   expect(typeof numeroRandom()).toBe('number');

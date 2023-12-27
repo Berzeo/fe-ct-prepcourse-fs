@@ -1,4 +1,4 @@
-const redondearNumero = require('../ejercicios/39');
+const redondearNumero = require('../ejercicios/37');
 
 test('Debe devolver el número redondeado', function () {
   expect(redondearNumero(1.5)).toBe(2);
