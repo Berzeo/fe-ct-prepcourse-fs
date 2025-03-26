@@ -8,6 +8,14 @@ function esVocal(letra) {
   // "n" ---> "Dato incorrecto"
   // "texto largo" ---> "Dato incorrecto"
   // Tu código:
+     // Verificamos que el argumento sea un solo carácter y que sea una vocal.
+  if (letra.length === 1 && "aeiouAEIOU".includes(letra)) {
+      return "Es vocal";
+  } else {
+      return "Dato incorrecto";
+  }
+
 }
+
 
 module.exports = esVocal;
